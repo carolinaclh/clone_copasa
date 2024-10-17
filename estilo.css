@@ -1,4 +1,63 @@
 header{
-    width: 98%;
-    height: 250px;
+    width: 99%;
+    height: 210px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    background-color: rgb(21, 49, 94);
+}
+
+#images{
+    width: 400px;
+    height: 80px;
+    margin: 10PX;
+    margin-top: 0px;
+    margin-left: 85px;
+    padding: 1PX;
+    display: flex;
+}
+
+#menu{
+    width: 40px;
+    height: 30px;
+    margin-top: 45px;
+    margin-left: 25px;
+    
+}
+
+#logo{
+    width: 210px;
+    height: 50px;
+    margin: auto;
+    margin-top: 35px;
+    margin-left: 40px;
+}
+
+#pesquisa{
+    margin: 0px;
+    padding: 0px;
+    margin-top: -50px;
+    width: 170px;
+    margin-left: 80%;
+}
+
+#search{
+    width: 170px;
+    height: 30px;
+    font-size: medium;
+}
+
+nav{
+    width: 63%;
+    height: 90px;
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    margin-left: 30%;
+    margin-top: 45px;
+}
+a{
+    font-size: medium;
+    text-decoration: none;
+    color: white;   
 }
