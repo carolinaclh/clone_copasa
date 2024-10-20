@@ -2,7 +2,7 @@ header{
     width: 99%;
     height: 210px;
     padding: 0px;
-    margin: 0px;
+    margin: auto;
     border: 0px;
     background-color: rgb(21, 49, 94);
 }
@@ -64,3 +64,56 @@ a{
     margin: 0px;
 
 }
+
+#banner{
+    width: 99%;
+    margin: auto;
+    height: 350px;
+    display: flex;
+    
+    /*border: solid black 1px;*/
+}
+
+.Banner{
+    width: 446px;
+    height: 350px;
+    padding: 0px;
+    margin: auto;
+    margin: 0px;
+    
+    
+}
+
+#conta_nova{
+    background-color: rgb(30,75,148);
+
+}
+
+#texto_conta , #texto_conta2{
+    width: 220px;
+    height: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: auto;
+    padding: 5px;
+    
+}
+
+#texto_conta{
+    font-size: 40px;
+    margin-top: 30px;
+
+}
+
+#texto_conta2{
+    font-weight: none;
+    font-size: 30px;
+    margin-top: 10px;
+
+}
+
+#img_banner, #logo_banner{
+    width: 446px;
+    height: 350px;
+}
+
