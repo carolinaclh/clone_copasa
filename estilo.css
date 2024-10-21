@@ -74,7 +74,6 @@ a{
 
 #banner{
     width: 99%;
-    
     height: 335px;
     display: flex;
     
@@ -112,7 +111,6 @@ a{
 }
 
 #texto_conta2{
-    font-weight: none;
     font-size: 26px;
     margin-top: 10px;
 
@@ -128,3 +126,46 @@ a{
     height: 335px;
 }
 
+#agenciaVirtual{
+    width: 99%;
+    height: 490px;
+    margin-top: 0px;
+    margin: 10px;
+    background-color: rgb(209, 215, 255);
+    display: flex;
+    border: solid 1px black;
+}
+
+#titulo{
+    width: 290px;
+    padding: 20px;
+    margin-left: 15px;
+    margin-right: 900px;
+}
+
+#title{
+    width: 250px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    padding-top: 10px;
+    margin-left: 25px;
+    margin: 10px;
+    
+}
+
+
+.blocos{
+    width: 180px;
+    height: 150px;
+    border-radius: 15px;
+    background-color: rgb(6, 91, 250);
+
+}
+
+.text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: white;
+    
+}
