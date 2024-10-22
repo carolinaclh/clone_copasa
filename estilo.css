@@ -128,7 +128,7 @@ a{
 
 #agenciaVirtual{
     width: 99%;
-    height: 450px;
+    height: 460px;
     margin-top: 0px;
     margin: 10px;
     background-color: rgb(209, 215, 255);
@@ -147,9 +147,8 @@ a{
     padding: 0px;
     flex-wrap: wrap;/*Aqui define que não se pode passar das dimensões da div portanto o quadrado desce*/
     justify-content: center;/*Alinha os itens de acordo com o eixo principal do container */
-    align-items: center; 
+    align-items: center;
     gap: 5px;/*Define um espaçamento entre os itens dentro do container*/
-   
 }
 #titulo{
     width: 290px;
@@ -169,7 +168,7 @@ a{
     font-weight: lighter;
     padding-top: 0px;
     margin-left: 25px;
-    margin: 0px;
+    margin: 10px;
     
 }
 
@@ -178,15 +177,24 @@ a{
     width: 180px;
     height: 150px;
     border-radius: 15px;
-    background-color: rgb(6, 91, 250);
+    background-color: rgb(83, 135, 236);
     margin: 5px;
-    
-
+    display: flex;
+    justify-content: center;
 }
 
-.text{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-    color: white;
+.imagem{
+    margin: 5px;
+    margin-top: 20px;
+}
+
+#historico{
+    margin-right: 9px;
+    border-radius: 15px;
+}
+
+#segundavia{
+    margin-bottom: 10px;
+    margin-right: 17px;
     
 }
