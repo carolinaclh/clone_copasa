@@ -55,16 +55,17 @@ header{
 }
 
 nav{
-    width: 60%;
+    width: 64%;
     height: 60px;
     text-align: right;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 430px ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 255px ;
     margin-top: 40px;
     padding: 10px;
+
 }
 a{
-    font-size: 15px;
+    font-size: 16px;
     text-decoration: none;
     color: white;
     padding: 1px;
@@ -128,7 +129,7 @@ a{
 
 #agenciaVirtual{
     width: 99%;
-    height: 460px;
+    height: 530px;
     margin-top: 0px;
     margin: 10px;
     background-color: rgb(209, 215, 255);
@@ -145,10 +146,12 @@ a{
     margin: 0px;
     border: 0px;
     padding: 0px;
+    margin-top: -50px;
     flex-wrap: wrap;/*Aqui define que não se pode passar das dimensões da div portanto o quadrado desce*/
     justify-content: center;/*Alinha os itens de acordo com o eixo principal do container */
     align-items: center;
     gap: 5px;/*Define um espaçamento entre os itens dentro do container*/
+    
 }
 #titulo{
     width: 290px;
@@ -156,7 +159,7 @@ a{
     padding: 0px;
     margin: 0px;
     border: 0px;
-    margin-left: 15px;
+    margin-left: 30px;
     margin-top: 30px;
     
 }
@@ -167,15 +170,13 @@ a{
     font-size: 30px;
     font-weight: lighter;
     padding-top: 0px;
-    margin-left: 25px;
-    margin: 10px;
-    
+    margin: 7px;
 }
 
 
 .blocos{
-    width: 180px;
-    height: 150px;
+    width: 175px;
+    height: 160px;
     border-radius: 15px;
     background-color: rgb(83, 135, 236);
     margin: 5px;
@@ -184,17 +185,31 @@ a{
 }
 
 .imagem{
-    margin: 5px;
+    margin: 10px;
     margin-top: 20px;
+}
+
+#aguaEsgoto{
+    margin: 15px;
 }
 
 #historico{
     margin-right: 9px;
     border-radius: 15px;
+    margin: 18px;
 }
 
 #segundavia{
     margin-bottom: 10px;
     margin-right: 17px;
     
+}
+
+#maiservicos{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    text-align: left;
+    margin-left: 980px;
+    margin-top: 5px;
 }
