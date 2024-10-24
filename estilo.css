@@ -213,3 +213,32 @@ a{
     margin-left: 980px;
     margin-top: 5px;
 }
+
+#ultimasnoticias{
+    width: 99%;
+    height: 780px;
+    border: solid 1px black;
+}
+
+#news{
+    font-size: 30px;
+    margin-left: 40px;
+    color: rgb(21, 49, 94);
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#imgnoticia{
+    width: 500px;
+    height: 550px;
+    margin-left: 75px;
+    border: solid 1px black;
+
+}
+
+#noticiaimg{
+    width: 500px;
+    height: 550px;
+    /*margin-left: 75px;*/
+    border: solid 1px black;
+
+}
