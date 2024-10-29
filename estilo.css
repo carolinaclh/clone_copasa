@@ -6,7 +6,7 @@ body{
 
 header{
     margin-top: 10px;
-    width: 99%;
+    width: 100%;
     height: 210px;
     padding: 0px;
     border: 0px;
@@ -27,17 +27,17 @@ header{
 #menu{
     width: 40px;
     height: 30px;
-    margin-top: 45px;
-    margin-left:0px;
-    
+    margin-top: 40px;
+    margin-left:-15px;
 }
 
 #logo{
     width: 210px;
     height: 50px;
     margin: auto;
-    margin-top: 35px;
-    margin-left: 40px;
+    margin-top: 30px;
+    margin-left: 35px;
+    
 }
 
 #pesquisa{
@@ -56,10 +56,10 @@ header{
 
 nav{
     width: 64%;
-    height: 60px;
+    height: 65px;
     text-align: right;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 255px ;
+    margin-left: 355px ;
     margin-top: 40px;
     padding: 10px;
 
@@ -68,13 +68,14 @@ a{
     font-size: 16px;
     text-decoration: none;
     color: white;
-    padding: 1px;
-    margin: 0px;
+    padding: -5px;
+    margin: 2px;
+    
 
 }
 
 #banner{
-    width: 99%;
+    width: 100%;
     height: 335px;
     display: flex;
     
@@ -128,15 +129,16 @@ a{
 }
 
 #agenciaVirtual{
-    width: 99%;
+    width: 100%;
     height: 530px;
     margin-top: 0px;
-    margin: 10px;
+    /*margin: 10px;*/
     background-color: rgb(209, 215, 255);
     display: flex;
     flex-wrap: wrap;
     
 }
+
 
 #bloco{ /*Criação de uma div que vai conter os blocos*/
     display: flex; /*Abertura do flex*/
@@ -155,23 +157,26 @@ a{
 }
 #titulo{
     width: 290px;
-    height: 40px;
+    height: 80px;
     padding: 0px;
     margin: 0px;
     border: 0px;
     margin-left: 30px;
-    margin-top: 30px;
-    
+    margin-top: 0px;
+    color: rgb(33, 37, 41);
 }
+
 
 #title{
     width: 250px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
     font-weight: lighter;
-    padding-top: 0px;
+    padding-top: 40px;
     margin: 7px;
+    
 }
+
 
 
 .blocos{
@@ -180,6 +185,7 @@ a{
     border-radius: 15px;
     background-color: rgb(83, 135, 236);
     margin: 5px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
 }
@@ -215,7 +221,7 @@ a{
 }
 
 #ultimasnoticias{
-    width: 99%;
+    width: 100%;
     height: 780px;
     border: solid 1px black;
 }
@@ -228,17 +234,44 @@ a{
 }
 
 #imgnoticia{
-    width: 500px;
-    height: 550px;
+    width: 470px;
+    height: 540px;
     margin-left: 75px;
-    border: solid 1px black;
-
+    margin-top: 45px;
+    background-image: url(images/copasainaugura.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
 }
 
-#noticiaimg{
-    width: 500px;
-    height: 550px;
-    /*margin-left: 75px;*/
-    border: solid 1px black;
-
+#data{
+    width: 120px;
+    height: 30px;
+    font-size: 1.3em;
+    margin: 0px;
+    margin-top: 415px;
+    margin-left: 20px;
+    color: white;
 }
+
+#copasaInaugura{
+    width: 375px;
+    height: 70px;
+    color: white;
+    font-size: 2em;
+    margin-left: 20px;
+    margin-top: -7px;
+}
+
+/*#data{
+    width: 120px;
+    height: 40px;
+    font-size: 1.2em;
+    margin-top: -130px;
+    color: black;
+    margin-left: 15px;
+    position: fixed;
+}
+
+*/
+
