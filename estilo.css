@@ -223,25 +223,32 @@ a{
 #ultimasnoticias{
     width: 100%;
     height: 780px;
-    border: solid 1px black;
+    display: flex;
+    flex-direction: row;
+    
 }
 
 #news{
+    width: 990px;
+    height: 40px;
     font-size: 30px;
+    margin: 50px;
     margin-left: 40px;
     color: rgb(21, 49, 94);
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
-#imgnoticia{
+.noticia{
     width: 470px;
-    height: 540px;
+    height: 550px;
     margin-left: 75px;
-    margin-top: 45px;
     background-image: url(images/copasainaugura.png);
     background-size: cover;
     display: flex;
     flex-direction: column;
+    border: solid 1px black;
+    
 }
 
 #data{
@@ -254,7 +261,7 @@ a{
     color: white;
 }
 
-#copasaInaugura{
+#copasaInauguracao{
     width: 375px;
     height: 70px;
     color: white;
@@ -263,15 +270,7 @@ a{
     margin-top: -7px;
 }
 
-/*#data{
-    width: 120px;
-    height: 40px;
-    font-size: 1.2em;
-    margin-top: -130px;
-    color: black;
-    margin-left: 15px;
-    position: fixed;
+#noticiasDireita{
+    background-image: none;
+    margin-top: 40px;
 }
-
-*/
-
