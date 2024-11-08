@@ -222,10 +222,10 @@ a{
 
 #ultimasnoticias{
     width: 100%;
-    height: 780px;
+    height: 710px;
     display: flex;
     flex-direction: row;
-    
+    border: solid 1px black;
 }
 
 #news{
@@ -272,5 +272,42 @@ a{
 
 #noticiasDireita{
     background-image: none;
+    margin-top: 60px;
+    
+}
+
+.imgsnews{
+    margin: 25px;
+    margin-top: 35px;
+    display: flex;
+    border: solid 1px black;
+}
+
+
+.imgnoticia{
+    width: 160px;
+    height: 100px;
+
+}
+
+#comunidadesrurais{
     margin-top: 40px;
+}
+
+#obras{
+    margin-top: 15px;
+}
+
+.texto{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.data{
+    border: solid 1px black;
+    
+}
+
+hr{
+    width: 99%;
 }
