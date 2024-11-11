@@ -211,21 +211,24 @@ a{
     
 }
 
-#maiservicos{
+#maiservicos, #saibamais{
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
+
+}
+#maiservicos{
     text-align: left;
     margin-left: 980px;
     margin-top: 5px;
 }
 
 #ultimasnoticias{
-    width: 100%;
-    height: 710px;
+    width: 99%;
+    height: 670px;
     display: flex;
     flex-direction: row;
-    border: solid 1px black;
+    
 }
 
 #news{
@@ -247,7 +250,7 @@ a{
     background-size: cover;
     display: flex;
     flex-direction: column;
-    border: solid 1px black;
+
     
 }
 
@@ -273,21 +276,24 @@ a{
 #noticiasDireita{
     background-image: none;
     margin-top: 60px;
+    width: 500px;
     
 }
 
 .imgsnews{
     margin: 25px;
     margin-top: 35px;
+    width: 470px;
+    height: 220px;
     display: flex;
-    border: solid 1px black;
+    
 }
 
 
 .imgnoticia{
-    width: 160px;
+    width: 150px;
     height: 100px;
-
+    margin-top: 10px;
 }
 
 #comunidadesrurais{
@@ -298,16 +304,86 @@ a{
     margin-top: 15px;
 }
 
-.texto{
+.texto, .datas{
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8em;
+    
 }
 
-.data{
-    border: solid 1px black;
-    
+.datas{
+    height: 20px;
+    margin-left: 15px;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.texto{
+    height: 70px;
+    width: 290px;
+    margin-top: 30px;
+    margin-left: -82px;
+    font-weight: bolder;
+
+}
+
+#investimentos{
+    margin-top: 15px;
 }
 
 hr{
     width: 99%;
+}
+
+#saibamais{
+    height: 35px;
+    margin-top: 600px;
+    margin-left: -90px;
+    font-size: medium;
+}
+
+#copasatransparente{
+    width: 99%;
+    height: 800px;
+    background-color: #7EA5F1;
+    border: solid 1px black;
+}
+
+#Cop_Transparente, #clique{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+}
+
+#Cop_Transparente{
+    font-size: 2em;
+    font-weight: lighter;
+    margin-top: 40px;
+    
+}
+
+#clique{
+    margin-top: -20px;
+}
+
+#copasaBlocos{
+    display: flex;
+    margin-top: 40px;
+    border: solid 1px black;
+}
+
+.copasa_bloco, .imgblocos{
+    width: 340px;
+    height: 450px;
+    
+    border-radius: 25px;
+    border: solid 1px black;
+}
+
+.copasa_bloco{
+    margin-left: 40px;
+}
+.imgblocos{
+    width: 340px;
+    height: 450px;
 }
