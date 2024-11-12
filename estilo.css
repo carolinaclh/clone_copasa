@@ -374,7 +374,7 @@ hr{
 
 .copasa_bloco, .imgblocos{
     width: 340px;
-    height: 450px;
+    height: 460px;
     
     border-radius: 25px;
     border: solid 1px black;
@@ -385,5 +385,5 @@ hr{
 }
 .imgblocos{
     width: 340px;
-    height: 450px;
+    height: 460px;
 }
