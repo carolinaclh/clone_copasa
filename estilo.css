@@ -385,6 +385,11 @@ hr{
     margin-left: 40px;
 }
 
+#reservatorios{
+    background-image: url(images/Níveis\ dos\ reservatório.jpg);
+    background-size: cover;
+
+}
 .imgblocos{
     width: 335px;
     height: 460px;
